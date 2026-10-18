@@ -1,0 +1,50 @@
+{
+    "name":  "bootwatch",
+    "logo":  "👢",
+    "exe":  "BootWatch.exe",
+    "desc":  "Free, open-source boot time analyzer for Windows — measure, graph and fix slow startups offline. 100 MB portable, no account, MIT.",
+    "topics":  [
+                   "boot-time",
+                   "slow-boot",
+                   "boot-analyzer",
+                   "startup-performance",
+                   "diagnostics",
+                   "performance",
+                   "bootracer-alternative",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "perf-log",
+                   "startup-apps",
+                   "optimization",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Full boot breakdown** — firmware, bootloader, driver init, services, logon and desktop-ready phases timed separately",
+                     "✅ **History graph** — every boot plotted over 30 days so a creeping slowdown becomes a visible trend",
+                     "✅ **Startup app impact** — time each autostart program adds, measured rather than guessed by a yellow arrow",
+                     "✅ **Degraded-boot alert** — flags any boot more than 15 seconds slower than your rolling median",
+                     "✅ **Driver phase detail** — read boot performance traces and list the slowest drivers with their load durations",
+                     "✅ **Report export** — HTML and JSON summaries for support threads and IT audits",
+                     "✅ **100 MB self-contained exe** — runtime bundled, portable, offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **bootwatch** | BootRacer | Perf Analyzer | Task Manager |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free | Free | Built-in |",
+                    "| Open source | **Yes** | No | No | No |",
+                    "| Per-phase boot breakdown | **Yes** | Basic | Yes | No |",
+                    "| 30-day history graph | **Yes** | No | No | Limited |",
+                    "| Slowest drivers list | **Yes** | No | Manual parse | No |",
+                    "| Portable, no install | **Yes, 100 MB** | Installer | SDK install | With OS |"
+                ],
+    "faqQ":  "how to find out why Windows boots slowly?",
+    "faqA":  "Task Manager only names suspects, never proves the cost, and boot performance traces require the heavy Windows SDK tooling. bootwatch times each boot phase itself, graphs the last 30 boots and ranks drivers and autostarts by measured milliseconds. It is a 100 MB portable exe, MIT, offline with no account and no telemetry.",
+    "s1":  "Dark dashboard (#121418, sky #0EA5E9): phase timeline bar segmented firmware 4.1 s to desktop 21.3 s, history sparkline below with median line.",
+    "s2":  "Driver phase table: top five drivers by load time with manufacturer column, one flagged slow row in amber, disable hint drawer.",
+    "s3":  "Alerts and export: degraded-boot banner for boot 22 s versus 18 s median, HTML export button, cleanup of old boot records control."
+}
